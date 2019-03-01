@@ -1,3 +1,4 @@
+// Comment
 var fs = require("fs");
 
 // Create a readable stream
