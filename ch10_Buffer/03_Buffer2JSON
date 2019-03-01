@@ -1,0 +1,9 @@
+// Comment
+size = 'Simply Easy Learning'.length;
+console.log ('size: ', size);
+var buf = new Buffer.alloc(size);
+buf.write('Simply Easy Learning');
+console.log('buf: ', buf);
+var json = buf.toJSON(buf);
+
+console.log('json: ', json);
